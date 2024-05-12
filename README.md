@@ -1,2 +1,3 @@
-# MFn-FCL-Layout
-MFn's FCL/HMCLPE Layout json file based on the default layout
+# MFn's FCL Layout
+
+MFn's FCL Layout json file based on the default layout
