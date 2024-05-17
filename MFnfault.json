@@ -1,6 +1,6 @@
 {
   "name": "MFnfault",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Tungsten, MFn",
   "description": "Based on FCL default layout, edited by MFn",
   "controllerVersion": 10,
@@ -337,7 +337,7 @@
             "baseInfo": {
               "visibilityType": "IN_GAME",
               "xPosition": 320,
-              "yPosition": 950,
+              "yPosition": 710,
               "sizeType": "PERCENTAGE",
               "absoluteWidth": 50,
               "absoluteHeight": 50,
@@ -1229,83 +1229,6 @@
             }
           },
           {
-            "id": "ba35dfcb-5add-4d53-b2ac-09ef0786c945",
-            "text": "Ctrl",
-            "style": "MFnFault",
-            "baseInfo": {
-              "visibilityType": "IN_GAME",
-              "xPosition": 935,
-              "yPosition": 510,
-              "sizeType": "PERCENTAGE",
-              "absoluteWidth": 50,
-              "absoluteHeight": 50,
-              "percentageWidth": {
-                "reference": "SCREEN_HEIGHT",
-                "size": 140
-              },
-              "percentageHeight": {
-                "reference": "SCREEN_HEIGHT",
-                "size": 140
-              }
-            },
-            "event": {
-              "pointerFollow": false,
-              "Movable": false,
-              "pressEvent": {
-                "autoKeep": true,
-                "autoClick": false,
-                "openMenu": false,
-                "switchTouchMode": false,
-                "switchMouseMode": false,
-                "input": false,
-                "quickInput": false,
-                "outputText": "",
-                "outputKeycodes": [
-                  29
-                ],
-                "bindViewGroup": []
-              },
-              "longPressEvent": {
-                "autoKeep": false,
-                "autoClick": false,
-                "openMenu": false,
-                "switchTouchMode": false,
-                "switchMouseMode": false,
-                "input": false,
-                "quickInput": false,
-                "outputText": "",
-                "outputKeycodes": [],
-                "bindViewGroup": []
-              },
-              "clickEvent": {
-                "autoKeep": true,
-                "autoClick": false,
-                "openMenu": false,
-                "switchTouchMode": false,
-                "switchMouseMode": false,
-                "input": false,
-                "quickInput": false,
-                "outputText": "",
-                "outputKeycodes": [
-                  42
-                ],
-                "bindViewGroup": []
-              },
-              "doubleClickEvent": {
-                "autoKeep": false,
-                "autoClick": false,
-                "openMenu": false,
-                "switchTouchMode": false,
-                "switchMouseMode": false,
-                "input": false,
-                "quickInput": false,
-                "outputText": "",
-                "outputKeycodes": [],
-                "bindViewGroup": []
-              }
-            }
-          },
-          {
             "id": "915d515f-95c9-4aa1-8c6a-e03dccaa0cc0",
             "text": "F1",
             "style": "MFnFault",
@@ -1461,9 +1384,9 @@
             "text": "Layout Edited By MFn.",
             "style": "WaterMark",
             "baseInfo": {
-              "visibilityType": "ALWAYS",
-              "xPosition": 500,
-              "yPosition": 1000,
+              "visibilityType": "IN_GAME",
+              "xPosition": 880,
+              "yPosition": 485,
               "sizeType": "PERCENTAGE",
               "absoluteWidth": 50,
               "absoluteHeight": 50,
@@ -1489,6 +1412,81 @@
                 "quickInput": false,
                 "outputText": "",
                 "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "switchMouseMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "switchMouseMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "switchMouseMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "0aa247a3-72a0-4e3f-bb58-74495948d03c",
+            "text": "Ctrl",
+            "style": "MFnFault",
+            "baseInfo": {
+              "visibilityType": "IN_GAME",
+              "xPosition": 935,
+              "yPosition": 500,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 140
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 140
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": true,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "switchMouseMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  29
+                ],
                 "bindViewGroup": []
               },
               "longPressEvent": {
@@ -1649,6 +1647,79 @@
                 "outputKeycodes": [
                   1002
                 ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "switchMouseMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "switchMouseMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "switchMouseMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "ce3ddcc7-1608-4dd1-84a2-25bc9064a233",
+            "text": "Layout edited by MFn.",
+            "style": "WaterMark",
+            "baseInfo": {
+              "visibilityType": "MENU",
+              "xPosition": 500,
+              "yPosition": 1000,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 500
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 100
+              }
+            },
+            "event": {
+              "pointerFollow": true,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "switchMouseMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
                 "bindViewGroup": []
               },
               "longPressEvent": {
